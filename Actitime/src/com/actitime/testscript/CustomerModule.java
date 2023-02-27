@@ -34,6 +34,11 @@ public class CustomerModule extends BaseClass{
 		String actualCustomerTx = t.getActualCustomerCreated().getText();
 		Assert.assertEquals(actualCustomerTx, customerName);
 	}	
+	@Test
+	public void testModifyCustomer() {
+		Reporter.log("ModifyCustomer",true);
+	}
+	
 }
 
 
